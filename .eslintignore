@@ -1,0 +1,10 @@
+coverage/**
+node_modules/**
+dist/**
+server-dist/**
+*.spec.disabled.js
+src/index.html
+/changelog-config.js
+hotpot/**
+src/vendor/**
+config/dynData/*

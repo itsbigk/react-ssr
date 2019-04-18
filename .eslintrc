@@ -1,0 +1,59 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "standard",
+        "standard-react"
+    ],
+    "plugins": [
+        "babel"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "globals": {
+        "Action"    : false,
+        "__DEV__": false,
+        "__STAGE__": false,
+        "__PROD__": false,
+        "__DEBUG__": false,
+        "__DEBUG_NEW_WINDOW__": false,
+        "__COVERAGE__" : false,
+        "__BASENAME__": false,
+        "__URLS__": false,
+        "__LOG__": false,
+        "__": false,
+        "__LANG__": false,
+        "__LANGS__": false,
+        "__LOCALES__": false,
+        "__TEST__": false,
+        "__CONTENT_URL__": false,
+        "__CLIENT__": false,
+        "__GCS__": false,
+        "ga": false,
+        "__GTM_CONTAINER__": false,
+        "__GA_ID__": false,
+        "dataLayer": false,
+        "gtag": false,
+        "google",
+        "cxApi",
+        "snaptr": false,
+        "__APP_STORES__": false,
+        "__TUNE_LINK__": false,
+        "__TUNE_MOBILE__": false,
+        "TEXT_TO_DOWNLOAD_ENDPOINT": false,
+        "twq": false,
+        "uetq": false,
+        "zenscroll": false
+    },
+    "rules": {
+        "semi": [2, "never"],
+        "max-len": [2, 120, 2],
+        "generator-star-spacing": 0,
+        "babel/generator-star-spacing": 1,
+        "react/no-danger": 1,
+        "no-implied-eval": 1,
+        "react/jsx-boolean-value": 0,
+        "prefer-promise-reject-errors": 0
+    }
+}
